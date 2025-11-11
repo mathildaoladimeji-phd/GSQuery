@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Mail, Github, Linkedin, Twitter, Library } from "lucide-react";
+import { Mail, Linkedin, Library } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -78,7 +78,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:contact@scholarquery.app"
+                  href="mailto:support@scholarle.com"
                   className="text-sm text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-2"
                 >
                   <Mail className="w-4 h-4" />
@@ -112,21 +112,7 @@ export function Footer() {
           {/* Social Links */}
           <div className="flex gap-6">
             <a
-              href="#github"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-              aria-label="GitHub"
-            >
-              <Github className="w-5 h-5" />
-            </a>
-            <a
-              href="#twitter"
-              className="text-gray-600 hover:text-gray-900 transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter className="w-5 h-5" />
-            </a>
-            <a
-              href="#linkedin"
+              href="linkedin.com/in/mathildaoladimeji"
               className="text-gray-600 hover:text-gray-900 transition-colors"
               aria-label="LinkedIn"
             >
